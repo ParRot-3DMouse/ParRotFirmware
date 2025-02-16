@@ -32,6 +32,7 @@ extern volatile int prev_dpi;
 
 extern Adafruit_SSD1306 display;
 extern int current_layer;
+extern int prev_layer;
 extern int current_app;
 extern String app_name[];
 
@@ -49,6 +50,14 @@ extern volatile bool z_only;
 extern volatile bool x_only_hold;
 extern volatile bool y_only_hold;
 extern volatile bool z_only_hold;
+
+extern bool x_frag;
+extern bool y_frag;
+extern bool z_frag;
+
+extern volatile bool isx_only;
+extern volatile bool isy_only;
+extern volatile bool isz_only;
 
 extern bool x_reverse[];
 extern bool y_reverse[];
