@@ -11,7 +11,7 @@ ParRotNest:
 https://nest.parrot3dmouse.com/
 (対応webブラウザ:Chrome,Edge)
 
-##　ハードウェア要件
+## ハードウェア要件
 回路図、設計
 
 rp2040,PWM3360等
