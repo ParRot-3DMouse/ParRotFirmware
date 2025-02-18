@@ -9,6 +9,7 @@
 
 ParRotNest:
 https://nest.parrot3dmouse.com/
+
 (対応webブラウザ:Chrome,Edge)
 
 ## ハードウェア要件
@@ -22,20 +23,22 @@ rp2040,PWM3360等
 https://www.arduino.cc/en/software
 
 このデバイスにはRaspberry Pi Picoの書き込み機能が必要です。
-    メニューの 「ファイル」→「環境設定」 を開く。
-    「追加のボードマネージャのURL」に以下を入力：
 
-    https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
+メニューの 「ファイル」→「環境設定」 を開く。
+「追加のボードマネージャのURL」に以下を入力：
 
-    「OK」を押して設定を保存。
+https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
 
-    「ツール」→「ボード」→「ボードマネージャ」 を開く。
-    「RP2040」または「Raspberry Pi Pico」で検索。
-    「Raspberry Pi RP2040 Boards by Earle F. Philhower」 を選び、「インストール」をクリック。
+「OK」を押して設定を保存。
 
-    「ツール」→「ボード」 で「Raspberry Pi Pico」を選択。
+「ツール」→「ボード」→「ボードマネージャ」 を開く。
+「RP2040」または「Raspberry Pi Pico」で検索。
+「Raspberry Pi RP2040 Boards by Earle F. Philhower」 を選び、「インストール」をクリック。
+
+「ツール」→「ボード」 で「Raspberry Pi Pico」を選択。
 
 また、動作には以下のライブラリを必要とします
+
     Adafruit TinyUSB: https://github.com/adafruit/Adafruit_TinyUSB_Arduino
 
     PMW3360: https://github.com/zephray/PMW3360
@@ -68,13 +71,13 @@ Unityは現在ゲームコントローラーとして、利用することがで
 ## トラブルシューティング
 ・デバイスに書き込みができない
 
-    ボードをRasberry pi picoに設定しましたか？他の、rp2040系列ボードとして書き込むとコンパイルできないことがあります。
+ボードをRasberry pi picoに設定しましたか？他の、rp2040系列ボードとして書き込むとコンパイルできないことがあります。
 ・OLEDはついているのに動かない
 
-    電源を付けたまま長時間放置しているとデバイスが反応しなくなることがあります。その場合は、USBをもう一度さしなおしてください。
-    
+電源を付けたまま長時間放置しているとデバイスが反応しなくなることがあります。その場合は、USBをもう一度さしなおしてください。
+
 ・ボールの回転方向と逆向きに動いてしまう。（blender）
-    Blenderの設定でコントローラーを反転していませんか？現在このデバイスは「Edit」→「Preference」の「Input」→「NDOF」Invert Axis PanとOrbitを全部青色にした状態で設計しています。状況に応じて設計を変更してください。
+Blenderの設定でコントローラーを反転していませんか？現在このデバイスは「Edit」→「Preference」の「Input」→「NDOF」Invert Axis PanとOrbitを全部青色にした状態で設計しています。状況に応じて設計を変更してください。
 
 
 
