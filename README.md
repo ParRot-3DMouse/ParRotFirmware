@@ -1,4 +1,4 @@
-# Parrot-v1.0-main
+# ParrotFirmware
 オープンソースハードウェア「ParRot」のファームウェアです。MultiAxisControllerとして３次元の動きを出力できます
 
 ## 概要
@@ -18,7 +18,7 @@ https://nest.parrot3dmouse.com/
 rp2040,PWM3360等
 
 ## ファームウェアのビルド
-このソースフォルダ内の[ParRot-v1.0-main/ParRot-v1.0-main.ino](https://github.com/ParRot-3DMouse/Parrot-v1.0-main/blob/main/ParRot-v1.0-main/ParRot-v1.0-main.ino)をArduinoIDEによってビルドし書き込みを行ってください
+このソースフォルダ内の[ParrotFirmware/ParRot-v1.0-main.ino](https://github.com/ParRot-3DMouse/ParrotFirmware/blob/main/ParRot-v1.0-main/ParRot-v1.0-main.ino)をArduinoIDEによってビルドし書き込みを行ってください
 （ダウンロード、詳しいビルド方法は以下のページ）
 https://www.arduino.cc/en/software
 
