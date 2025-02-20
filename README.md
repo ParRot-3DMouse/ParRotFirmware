@@ -1,6 +1,10 @@
 # ParRotFirmware
 オープンソースハードウェア「ParRot」のファームウェアです。MultiAxisControllerとして３次元の動きを出力できます。
+
 ParRotは、以下のリポジトリを元に製作することができます。
+
+
+
 また、今後BOOTH等のサービスで基板等の頒布を行う予定です。
 
 頒布等のお知らせは、[ParRot公式Discordサーバ](https://discord.gg/6GQAw36ZpH)にて行います！ぜひご参加ください！
