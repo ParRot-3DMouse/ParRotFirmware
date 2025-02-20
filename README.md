@@ -16,8 +16,9 @@ ParRotは、以下のリポジトリを元に製作することができます�
 
 2. Arduino IDEのインストール
 Arduino IDEをまだお持ちでない場合は、下記リンクからダウンロードし、インストールしてください。
-
-https://www.arduino.cc/en/software
+    
+    https://www.arduino.cc/en/software
+    
 
 
 ## Arduino IDEの設定
@@ -26,7 +27,8 @@ https://www.arduino.cc/en/software
 Arduino IDEを起動し、メニューの「ファイル」→「環境設定」を開きます。
 「追加のボードマネージャのURL」に以下のURLを入力し、「OK」を押して設定を保存してください。
 
-https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
+    https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
+
 
 4. Raspberry Pi Pico用ボードのインストール
 次に、メニューの「ツール」→「ボード」→「ボードマネージャ」を開き、「RP2040」または「Raspberry Pi Pico」で検索します。
@@ -47,7 +49,8 @@ https://github.com/earlephilhower/arduino-pico/releases/download/global/package_
 
     https://github.com/ParRot-3DMouse/ParrotFirmware/blob/main/ParRot-v1.0-main/ParRot-v1.0-main.ino
 
-7. ビルドと書き込み
+
+8. ビルドと書き込み
 Arduino IDEでダウンロードしたソースコードを開き、ビルド（コンパイル）を行った後、ParRotにファームウェアを書き込んでください。
 
 
@@ -65,7 +68,7 @@ MultiAxisControllerに対応している場合、動作する可能性が高い�
 
 なお、拡張キーボードはParRotNestを使用して設定が可能です。以下のURLから設定用サイトにアクセスしてください。
 
-https://nest.parrot3dmouse.com/
+   https://nest.parrot3dmouse.com/
 
 
 ## トラブルシューティング
